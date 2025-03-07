@@ -1,0 +1,140 @@
+.h2-cl {
+  color: rgb(36, 36, 36);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.сatalog-next {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .сatalog-next {
+    flex-direction: column;
+  }
+}
+.paragraph-description {
+  color: rgb(56, 55, 56);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 819px;
+}
+.description-list {
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 297px;
+}
+@media (max-width: 768px) {
+  .description-list {
+    margin-left: 0;
+  }
+}
+.next-button {
+  width: 16px;
+  height: 16px;
+  left: 28px;
+  right: -4px;
+  top: 28px;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.catalog-list img {
+  max-width: 380px;
+}
+
+.list-info {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.07);
+}
+
+.info-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-name {
+  color: rgb(36, 36, 36);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-left: 24px;
+}
+.img-likes-share {
+  max-width: 26px;
+  max-height: 26px;
+  justify-content: center;
+}
+.info-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5px;
+}
+.like-share {
+  display: flex;
+  gap: 16px;
+  margin-right: 24px;
+}
+.price {
+  color: rgb(21, 68, 68);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  margin-left: 24px;
+}
+.button-buy {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  background: rgb(21, 68, 68);
+  font-size: 12px;
+  width: 78.85px;
+  height: 32px;
+  margin-right: 24px;
+}
+
+@media (max-width: 1024px) {
+  .list-info {
+    margin: 0px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .list-info {
+    max-width: 90%;
+  }
+  .list-info img {
+    max-width: 100%;
+  }
+  .h2-cl {
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .paragraph-description {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .catalog-list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .list-info {
+    margin: 0px 15px;
+  }
+}

@@ -1,0 +1,13 @@
+@import url(./components/imports.css);
+
+body {
+  font-family: Montserrat;
+  background: rgb(252, 251, 255);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 140px;
+}

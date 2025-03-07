@@ -1,0 +1,99 @@
+.misalignment {
+  margin-top: 26px;
+}
+.misalignment-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.misalignment-imgs {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.h2-about {
+  margin-left: 135px;
+  max-width: 800px;
+}
+.about-h2 {
+  color: rgb(36, 77, 77);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.about-paragraph {
+  color: rgb(68, 68, 68);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+.about-advantage {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin-top: 30px;
+}
+.about-advantage:nth-child(3) {
+  margin-top: 40px;
+}
+.h2-text {
+  color: rgb(36, 77, 77);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 0;
+}
+.paragraph {
+  color: rgb(56, 55, 56);
+  font-family: DM Sans;
+  font-size: 18px;
+  max-width: 271px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.img-icons {
+  height: 50px;
+  width: 50px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1280px) {
+  .misalignment-container {
+    flex-direction: column;
+  }
+  .about-paragraph {
+    text-align: center;
+  }
+  .h2-about {
+    margin-left: 0;
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-icons {
+    height: 40px;
+    width: 40px;
+    margin-right: 0;
+  }
+  .about-advantage {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+  }
+}

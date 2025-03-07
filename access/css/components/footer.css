@@ -1,0 +1,129 @@
+.footer {
+  background-color: #305f64;
+  color: white;
+  padding: 0 0 20px 0;
+  padding-top: 100px;
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container-footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20%;
+  }
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  height: 29px;
+  align-items: start;
+  justify-content: end;
+  margin-bottom: 24px;
+}
+
+.footer-name {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.footer-paragraph {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  max-width: 308px;
+  margin-top: 0;
+}
+
+.follow-name {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.follow-list {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.follows {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.links ul,
+.company ul {
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.links ul li,
+.company ul li {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.input-footer {
+  display: flex;
+  background: white;
+  max-width: 270px;
+  height: 48px;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-footers {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.rightf {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.Copyright {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  padding-top: 20px;
+  display: block;
+  margin-bottom: 0;
+  border-top: 1px solid #407980;
+}

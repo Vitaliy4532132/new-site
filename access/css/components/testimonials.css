@@ -1,0 +1,131 @@
+.testimonials-container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+}
+.testimonials-text {
+  max-width: 535px;
+}
+
+.testimonials-heading {
+  color: rgb(36, 36, 36);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.testimonials-paragraph {
+  color: rgb(68, 68, 68);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.testimonials_cline-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 129px;
+}
+.testimonials-client-name {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 6px;
+}
+.testimonials-circle {
+  position: relative;
+  margin-left: 105px;
+}
+.testimonials-circle img {
+  max-width: 100%;
+}
+.circle {
+  width: 492px;
+  height: 492px;
+  background: rgb(36, 77, 77);
+  border-radius: 500%;
+  position: absolute;
+  z-index: -1;
+  top: 1px;
+  right: 105px;
+}
+
+@media (max-width: 1024px) {
+  .testimonials-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .testimonials-text {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+  .testimonials-heading {
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+  }
+  .testimonials-paragraph {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .testimonials_cline-view {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .testimonials-circle {
+    margin-left: 0;
+  }
+  .circle {
+    width: 400px;
+    height: 400px;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .testimonials-text {
+    padding: 0 20px;
+  }
+  .testimonials-heading {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .testimonials-paragraph {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .testimonials_cline-view {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .testimonials-client-name {
+    font-size: 14px;
+  }
+  .testimonials-circle {
+    margin-left: 0;
+  }
+  .circle {
+    width: 250px;
+    height: 250px;
+    right: auto;
+    left: auto;
+    margin: 0 auto;
+  }
+}
